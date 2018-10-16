@@ -3,6 +3,7 @@
 pip install imageio
 pip install scipy
 pip install numpy
+pip install matplotlib
 
 mkdir -p /storage/s8zrzug3/models/gan/
 mkdir -p /storage/s8zrzug3/datasets/fashion-mnist/
