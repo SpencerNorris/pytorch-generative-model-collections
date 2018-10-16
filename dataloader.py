@@ -9,7 +9,7 @@ def dataloader(dataset, input_size, batch_size, split='train'):
             batch_size=batch_size, shuffle=True)
     elif dataset == 'fashion-mnist':
         data_loader = DataLoader(
-            datasets.FashionMNIST('data/fashion-mnist', train=True, download=True, transform=transform),
+            datasets.FashionMNIST('/storage/s8zrzug3/datasets/fashion-mnist', train=True, download=True, transform=transform),
             batch_size=batch_size, shuffle=True)
     elif dataset == 'cifar10':
         data_loader = DataLoader(
