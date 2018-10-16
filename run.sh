@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 pip install -r requirements.txt
-conda install pytorch-cpu torchvision-cpu -c pytorch
 
 mkdir -p /storage/s8zrzug3/models/gan/
 mkdir -p /storage/s8zrzug3/datasets/fashion-mnist/
